@@ -19,13 +19,14 @@ class Post extends Model
         'description',
         'category',
         'user_id',
-        'slug',
+        'slug'
+
     ];
 
-    // membuat setting attribute title
-    public function settitleattribute($value)
+    //membuat setting attribute title
+    public function setTitleAttribute($value)
     {
-        $this ->atributes['title']=$value;
-
+        $this->attributes['title'] = $value;
     }
+
 }
